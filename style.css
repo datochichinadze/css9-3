@@ -1,0 +1,1151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #0E0E0E;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+.alldivClass {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* header */
+
+
+.headercontainer {
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 300px;
+}
+
+
+
+.headerparagrapdiv {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+
+
+.moviesClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+.pheadClass {
+    color: #7B7B7B;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+
+.filmClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+
+
+
+.boxClass {
+    color: #A00;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+
+.lastheaderClass {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+
+.arleneClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+/* main */
+
+
+
+.mainimages {
+    background-image: url(images/image2.svg), url(images/image1.svg);
+    width: 840px;
+    height: 471px;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-bottom-right-radius: 12px;
+}
+
+
+
+.secondimagesdiv {
+    background-image: url(images/image2.svg);
+    width: 370px;
+    height: 472px;
+    position: absolute;
+    right: 2px;
+
+}
+
+
+
+.bacgraundTexts {
+    display: flex;
+    flex-direction: column;
+    gap: 91px;
+    padding: 40px;
+}
+
+
+
+
+.textsDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+
+
+.moveClass {
+    color: #7B7B7B;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+.batmanClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+
+
+
+.textsAndImg {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+
+.imdbClass {
+    color: #7B7B7B;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+/*  */
+
+
+.testsFirst {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
+.oneTexts {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 300px;
+    width: 100%;
+}
+
+
+
+.paragrapTexts {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+
+
+.fantasyClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+.theClass {
+    color: #7B7B7B;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    max-width: 300px;
+    width: 100%;
+}
+
+
+
+
+
+.buttonWatch {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px 32px;
+    background-color: #A00;
+    box-shadow: 5px 2px 11.9px 0px #A00;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+/*  */
+
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+.textsAndInputClass {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.recommendedClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+
+
+.inputAndSelect {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+
+
+.inputText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.inputClass {
+    display: flex;
+    padding: 8px 16px 8px 12px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background-color: #191919;
+    border: none;
+    color: #FFF;
+    background-image: url(images/Group2.svg);
+    background-repeat: no-repeat;
+    background-position: left 10px top 5px;
+}
+
+
+
+
+.inputClass:focus {
+    border: 3px solid #A00;
+}
+
+
+
+.selectClass {
+    display: flex;
+    padding: 8px 12px 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background-color: #191919;
+    color: #7B7B7B;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+/*  */
+
+
+
+.imagesClassDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+
+.upDivImages {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+
+
+
+
+.downDivImages {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+
+
+.oneImages {
+    width: 192px;
+    height: 219px;
+    border-radius: 16px;
+    background-image: url(images/image3.svg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.twoImages {
+    width: 192px;
+    height: 219px;
+    border-radius: 16px;
+    background-image: url(images/image4.svg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.treeImages {
+    width: 192px;
+    height: 219px;
+    border-radius: 16px;
+    background-image: url(images/image5.svg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.fourImages {
+    width: 192px;
+    height: 219px;
+    border-radius: 16px;
+    background-image: url(images/image6.svg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+.oneImages::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+
+
+.oneImages:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+
+
+
+.oneImages button {
+    width: 135px;
+    height: 48px;
+    border: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px 32px;
+    background-color: #a00;
+    box-shadow: 5px 2px 11.9px 0px #a00;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+
+
+
+.oneImages:hover button {
+    display: block;
+}
+
+
+/*  */
+
+
+.twoImages::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+
+
+.twoImages:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+
+
+
+.twoImages button {
+    width: 135px;
+    height: 48px;
+    border: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px 32px;
+    background-color: #a00;
+    box-shadow: 5px 2px 11.9px 0px #a00;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+
+
+
+.twoImages:hover button {
+    display: block;
+}
+
+
+/*  */
+
+
+.treeImages::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+
+
+.treeImages:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+
+
+
+.treeImages button {
+    width: 135px;
+    height: 48px;
+    border: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px 32px;
+    background-color: #a00;
+    box-shadow: 5px 2px 11.9px 0px #a00;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+
+
+
+.treeImages:hover button {
+    display: block;
+}
+
+
+/*  */
+
+
+
+
+.fourImages::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+
+
+.fourImages:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+
+
+
+.fourImages button {
+    width: 135px;
+    height: 48px;
+    border: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px 32px;
+    background-color: #a00;
+    box-shadow: 5px 2px 11.9px 0px #a00;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+
+
+
+.fourImages:hover button {
+    display: block;
+}
+
+
+
+/*  */
+
+
+
+.fiveImages {
+    width: 192px;
+    height: 219px;
+    border-radius: 16px;
+    background-image: url(images/image7.svg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+.sixImages {
+    width: 192px;
+    height: 219px;
+    border-radius: 16px;
+    background-image: url(images/image8.svg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+.sevenImages {
+    width: 192px;
+    height: 219px;
+    border-radius: 16px;
+    background-image: url(images/image9.svg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.eithImages {
+    width: 192px;
+    height: 219px;
+    border-radius: 16px;
+    background-image: url(images/image10.svg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+/*  */
+
+
+
+.fiveImages::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+
+
+.fiveImages:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+
+
+
+.fiveImages button {
+    width: 135px;
+    height: 48px;
+    border: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px 32px;
+    background-color: #a00;
+    box-shadow: 5px 2px 11.9px 0px #a00;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+
+
+
+.fiveImages:hover button {
+    display: block;
+}
+
+
+/*  */
+
+
+
+.sixImages::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+
+
+.sixImages:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+
+
+
+.sixImages button {
+    width: 135px;
+    height: 48px;
+    border: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px 32px;
+    background-color: #a00;
+    box-shadow: 5px 2px 11.9px 0px #a00;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+
+
+
+.sixImages:hover button {
+    display: block;
+}
+
+
+
+/*  */
+
+
+.sevenImages::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+
+
+.sevenImages:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+
+
+
+.sevenImages button {
+    width: 135px;
+    height: 48px;
+    border: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px 32px;
+    background-color: #a00;
+    box-shadow: 5px 2px 11.9px 0px #a00;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+
+
+
+.sevenImages:hover button {
+    display: block;
+}
+
+
+
+/*  */
+
+
+
+.eithImages::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(0);
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+
+
+.eithImages:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+}
+
+
+
+
+.eithImages button {
+    width: 135px;
+    height: 48px;
+    border: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 8px 32px;
+    background-color: #a00;
+    box-shadow: 5px 2px 11.9px 0px #a00;
+    cursor: pointer;
+    display: none;
+    z-index: 2;
+}
+
+
+
+
+.eithImages:hover button {
+    display: block;
+}
+
+
+
+
+
+.selectStyleDiv {
+    display: flex;
+    gap: 16px;
+}
+
+
+
+
+.burgerClass {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* table */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .headercontainer {
+        width: 768px;
+        padding: 16px 32px;
+    }
+
+
+    .maincontainer {
+        align-items: center;
+    }
+
+
+    .upDivImages {
+        gap: 18px;
+    }
+
+    .downDivImages {
+        gap: 18px;
+    }
+
+
+    .imagesClassDiv {
+        gap: 18px;
+        align-items: center;
+        width: 768px;
+    }
+
+
+    .mainimages {
+        width: 704px;
+        height: 471px;
+        border-radius: 12px;
+    }
+
+}
+
+/* table */
+
+
+
+
+
+/* smart phone */
+
+@media screen and (max-width: 767px) {
+    .headercontainer {
+        padding: 16px;
+        width: 300px;
+    }
+
+
+    .mainimages {
+        width: 288px;
+        height: 471px;
+        border-radius: 12px;
+        background-image: url(images/image1.svg);
+        background-position: center;
+    }
+
+
+    .maincontainer {
+        align-items: center;
+    }
+
+
+
+    .bacgraundTexts {
+        padding: 20px;
+    }
+
+
+    .inputAndSelect {
+        flex-direction: column;
+    }
+
+
+
+    .upDivImages {
+        flex-direction: column;
+    }
+
+
+    .downDivImages {
+        flex-direction: column;
+    }
+
+
+    .oneImages {
+        height: 219px;
+        width: 288px;
+    }
+
+
+
+    .twoImages {
+        height: 219px;
+        width: 288px;
+    }
+
+
+
+    .treeImages {
+        height: 219px;
+        width: 288px;
+    }
+
+
+    .fourImages {
+        height: 219px;
+        width: 288px;
+    }
+
+
+    .fiveImages {
+        height: 219px;
+        width: 288px;
+    }
+
+
+    .sixImages {
+        height: 219px;
+        width: 288px;
+    }
+
+
+    .sevenImages {
+        height: 219px;
+        width: 288px;
+    }
+
+
+    .eithImages {
+        height: 219px;
+        width: 288px;
+    }
+
+
+    .headerparagrapdiv a{
+        display: none;
+    }
+
+
+    .burgerClass {
+        display: flex;
+        cursor: pointer;
+    }
+
+
+    .arleneClass {
+        display: none;
+    }
+
+}
+
+/* smart phone */
